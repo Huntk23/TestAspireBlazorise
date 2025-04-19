@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspireBlazorise.AppHost", "TestAspireBlazorise.AppHost\TestAspireBlazorise.AppHost.csproj", "{E1DA0905-F0DF-468E-A9D0-6A94E99420E3}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspireBlazorise.ApiService", "TestAspireBlazorise.ApiService\TestAspireBlazorise.ApiService.csproj", "{F3018BC6-FF7D-9AE8-766C-C6D3E028F6E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspireBlazorise.Web", "TestAspireBlazorise.Web\TestAspireBlazorise.Web.csproj", "{74EFFC8B-184D-9C06-BD82-BA4C1D705FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspireBlazorise.Client", "TestAspireBlazorise.Client\TestAspireBlazorise.Client.csproj", "{84DD385B-D188-B302-43CA-CD28BF0CAAC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{74EFFC8B-184D-9C06-BD82-BA4C1D705FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74EFFC8B-184D-9C06-BD82-BA4C1D705FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74EFFC8B-184D-9C06-BD82-BA4C1D705FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84DD385B-D188-B302-43CA-CD28BF0CAAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DD385B-D188-B302-43CA-CD28BF0CAAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DD385B-D188-B302-43CA-CD28BF0CAAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DD385B-D188-B302-43CA-CD28BF0CAAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

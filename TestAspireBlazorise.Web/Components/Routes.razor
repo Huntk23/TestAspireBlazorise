@@ -1,8 +1,8 @@
 ﻿<Blazorise.ThemeProvider Theme="@_theme">
-    <Router AppAssembly="typeof(Program).Assembly">
+    <Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="new[] {typeof(TestAspireBlazorise.Client._Imports).Assembly}">
         <Found Context="routeData">
             <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)"/>
-            <FocusOnNavigate RouteData="routeData" Selector="h1"/> @* This works! But looks weird with the boxing around the h1 text *@
+            <FocusOnNavigate RouteData="routeData" Selector="h1"/>
         </Found>
     </Router>
 </Blazorise.ThemeProvider>
@@ -11,7 +11,10 @@
 
     private Theme _theme = new()
     {
-        IsRounded = false
+        BarOptions = new ThemeBarOptions
+        {
+            HorizontalHeight = "56px"
+        }
     };
 
 }

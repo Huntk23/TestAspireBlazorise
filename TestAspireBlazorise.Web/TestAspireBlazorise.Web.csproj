@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazorise.Icons.Material" Version="1.7.5" />
-    <PackageReference Include="Blazorise.Material" Version="1.7.5" />
+    <PackageReference Include="Blazorise.Icons.Material" Version="1.7.6" />
+    <PackageReference Include="Blazorise.Material" Version="1.7.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TestAspireBlazorise.Client\TestAspireBlazorise.Client.csproj" />
     <ProjectReference Include="..\TestAspireBlazorise.ServiceDefaults\TestAspireBlazorise.ServiceDefaults.csproj" />
   </ItemGroup>
 
